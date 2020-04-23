@@ -1,0 +1,366 @@
+ body{
+}
+
+.navbar{
+    padding: 0px;
+}
+
+.row{
+    display:flex;
+    justify-content:space-between;
+}
+
+
+.navbar-text p{
+    color:rgb(196, 196, 196);
+    font-size: 0.7rem;
+}
+
+.my-btn-nav p{
+    color:white;
+    background-color: #FB7B26;
+    padding: 10px;
+    font-size: 1em;
+    margin:0;
+}
+.my-btn-nav{
+    width:150px;
+}
+
+
+.fa-instagram, .fa-twitter,.fa-facebook{
+    color: white;
+    margin: 5px;
+}
+.fa:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+.my-nav-1{
+    background-color: darkgrey;
+}
+.my-nav-2{
+    background-color: rgba(255, 127, 80, 0.726);
+}
+
+
+/* herobox */
+.container-fluid {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.img-fluid{
+    padding: 0px;
+}
+
+.text_cover{
+    color: white;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
+h4{
+    font-size: 1rem;
+}
+p{
+    font-size: 1rem;
+}
+
+.mybox p{
+    font-size: 0.8rem;
+    padding-top: 5px;
+}
+.mybox a{
+    font-size: 1rem;
+    color:black;
+    text-decoration: underline;
+}
+
+.my-btn-1{
+    background-color: #FB7B26;
+    color:white;
+}
+
+.my-btn-1:hover{
+    color:grey;
+}
+
+.my-btn-2{
+    background-color: white;
+    border-color: #FB7B26;
+    border-width: 2px;
+    color: #FB7B26;
+    display: none;
+}
+
+.my-btn-2:hover{
+    color:grey;
+}
+
+.my-btn-1, .my-btn-2{
+    border-radius: 25px;
+    width: 150px;
+    margin: 5px;
+}
+
+.my-btn-1 p, .my-btn-2 p{
+    margin:5px 10px;
+    font-size: 0.8em;
+}
+
+.fa.fa-angle-double-down{
+    display: none;
+}
+
+
+
+/* content 1 */
+
+.content1{
+    padding-bottom: 30px ;
+}
+
+.card{
+    display:flex;
+    padding: 15px;
+}
+
+.card-img-top{
+    align-self: center;
+    width:20%;
+}
+
+.card-text{
+    font-size: 1rem;
+}
+
+/* content 2 */
+
+.underline{
+    border-bottom: 2px solid grey;
+}
+
+.vertical-boxes{
+    display: grid;
+    grid-template-rows: repeat(3, 180px);
+    grid-template-columns: 40% 60%;
+}
+
+.bg-yellow{
+    background-color: rgba(255, 127, 80, 0.562);
+}
+
+/* content 3 */
+
+.content3_text{
+    margin-top: 20px;
+    padding: 20px;
+}
+.content3_text p{
+   color: white;
+}
+.text_orange{
+    color: coral;
+}
+
+.my_container_1{
+    background-image: url("cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.donate{
+    background-color: white;
+    opacity: 0.8;
+    padding: 30px 0px;
+}
+
+input{
+    width:300px;
+    padding: 6px 12px;
+  margin: 4px;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+
+input:focus {
+    background-color: rgb(51, 50, 50);
+  }
+
+input[type=submit] {
+    background-color: #FB7B26;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+ label{
+     display: block;
+     margin: 0px;
+     }
+
+    #expire_date, #cvc{
+         width: 150px;
+     }
+
+
+     /* partners */
+
+.logos_block{
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    background-color: grey;
+    margin-top: 20px;
+}
+
+.logos_block .fa{
+    font-size: 50px;
+}
+
+
+/* footer */
+footer{
+    background-color: grey;
+}
+
+.myblock{
+    display: block;
+    text-align: left;
+}
+
+input[type=textarea] {
+    height: 150px;
+    resize: none;
+  }
+
+.form2 input{
+    width:100%;
+    padding: 6px 12px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  border-radius: 4px;
+  background-color: rgba(250, 250, 250, 0.527);
+}
+.form2 ::placeholder{
+    color:white;
+}
+.form2 input[type=submit]{
+    background-color: #FB7B26;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+  /* // Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) { 
+
+  }
+   
+  /* // Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .centered {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    .my-btn-1, .my-btn-2{
+        border-radius: 25px;
+        width: 200px;
+        margin: 5px;
+    }
+
+    .my-btn-1 p, .my-btn-2 p{
+        margin:5px 10px;
+        font-size: 1.2rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+    h4{
+        font-size: 1.4rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+
+    .mybox p{
+        font-size: 1rem;
+        padding-right: 20px;
+    }
+
+    .content1{
+        padding-top: 100px;
+        margin-left: 50px;
+    }
+
+    .content2{
+        margin-right: 50px;
+    }
+    .my-btn-2{
+        display: inline-block;
+    }
+
+    .fa.fa-angle-double-down{
+        color:white;
+        font-size: 50px;
+        display: block;
+    }
+    
+    .fa-angle-double-down:hover{
+        color:rgba(255, 127, 80, 0.726);
+        text-decoration: none;
+    
+    }
+
+
+    .content3_text{
+        margin-top: 110px;
+        padding: 50px;
+    }
+
+    .logos_block .fa{
+        font-size: 50px;
+    }
+     }
+
+
+  
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+      
+    
+
+}
+  
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { 
+
+   
+  }
